@@ -1,0 +1,67 @@
+
+body{
+    background-image: image-set("bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sidebar{ 
+    width: 200px; 
+    height: 100%; 
+    position: fixed; 
+    padding: 20px; 
+    overflow-x: hidden; 
+} 
+
+h1{
+    color: aliceblue;
+}
+
+.logo{
+    display: flex;
+    width: 100px;
+    margin-top: 10px; 
+    padding: 10px; 
+    overflow-x: hidden; 
+    border-radius: 50%; 
+}
+
+.sidebar ul li a{
+        display: flex;
+        padding: 10px;
+        color: aliceblue;
+        text-decoration: none;
+}
+
+.sidebar ul li a:hover{
+        background-color: #6d6666;
+}
+
+.main h2{
+    color: aliceblue;
+}
+
+.main table{
+    width: 100%;
+    padding: 50px;
+    border-spacing: 20px;
+    color: aliceblue;
+}
+
+.main section{
+    margin-left: 250px;
+    padding-top: 70px;
+    text-align: center;
+}
+
+.btn{
+    color: aliceblue;
+    background-color: rgba(255, 255, 255, 0.158);
+
+}
+footer{
+    background-color: #464646;
+    color: aliceblue;
+    text-align: center;
+    padding: 0;
+}
